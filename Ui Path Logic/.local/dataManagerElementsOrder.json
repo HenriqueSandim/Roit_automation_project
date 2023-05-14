@@ -12,6 +12,7 @@
       "Path": "Main.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "TransactionDT&TryCatch_7",
         "TransactionItem&StateMachine_1",
         "SystemException&StateMachine_1",
         "BusinessException&StateMachine_1",
@@ -47,9 +48,32 @@
       "Path": "Framework/GetTransactionData.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "DT_Divisions&Sequence_9"
+        "dt_ExcelFile&TryCatch_2",
+        "dr_dt_ExcelFile&Sequence_23",
+        "dt_Classes&Sequence_21",
+        "dt_Groups&Sequence_12",
+        "dt_SectionIBGE&Sequence_10",
+        "dt_NextSectionRow&Sequence_12",
+        "dt_Divisions&Sequence_12",
+        "secctionCode&Sequence_12",
+        "secctionName&Sequence_12",
+        "divisionCode&Sequence_13",
+        "divisionName&Sequence_13",
+        "divisionArray&Sequence_13",
+        "ExtractDataTable&Sequence_21",
+        "groupName&Sequence_21",
+        "groupCode&Sequence_21",
+        "dt_SubClasses&Sequence_22",
+        "className&Sequence_22",
+        "classCode&Sequence_22",
+        "dt_SubClass&Sequence_23",
+        "dt_TemplateToInsert&Sequence_23",
+        "subclassCode&Sequence_23",
+        "subclassName&Sequence_23",
+        "dt_allInfos&Sequence_23"
       ],
       "ArgumentsSectionElementsOrder": [
+        "out_TransactionDT",
         "in_TransactionNumber",
         "in_Config",
         "out_TransactionItem",
@@ -57,6 +81,64 @@
         "out_TransactionField2",
         "out_TransactionID",
         "io_dt_TransactionData"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/KillAllProcesses.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/InitAllSettings.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dt_SettingsAndConstants&Sequence_5",
+        "dt_Assets&Sequence_6",
+        "AssetValue&Sequence_11"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_ConfigFile",
+        "in_ConfigSheets",
+        "out_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/Process.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_TransactionExcelDT",
+        "in_TransactionItem",
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/SetTransactionStatus.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "QueueRetry&Sequence_17",
+        "ScreenshotPath&Sequence_17"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_BusinessException",
+        "in_TransactionField1",
+        "in_TransactionField2",
+        "in_TransactionID",
+        "in_SystemException",
+        "in_Config",
+        "in_TransactionItem",
+        "io_RetryNumber",
+        "io_TransactionNumber",
+        "io_ConsecutiveSystemExceptions"
       ],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null

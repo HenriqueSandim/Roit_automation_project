@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "hSp3rv1F3WNyvvp6cAQ5ytb5ABmoJQNagu5jK+6Snu8NthyKDZXtO5NwUz1a836BSbCSHfG4xcrA+zS5ntGZqQ==",
+  "dgSpecHash": "i/uqqfFvStPZl5EDsmsQXKQ1St90u+ec5wi/darooRSJdgkPcPD5ab1OSZEkuj3HxC3USI6ziANT9llsjng7rA==",
   "success": true,
   "projectFilePath": "C:\\Users\\rique\\OneDrive\\Documentos\\UiPath\\Roit_automation_project\\Ui Path Logic\\.local\\",
   "expectedPackageFiles": [
@@ -239,6 +239,7 @@
     "C:\\Users\\rique\\.nuget\\packages\\uipath.ocr.activities\\3.15.1\\uipath.ocr.activities.3.15.1.nupkg.sha512",
     "C:\\Users\\rique\\.nuget\\packages\\uipath.ocr.contracts\\2.14.0\\uipath.ocr.contracts.2.14.0.nupkg.sha512",
     "C:\\Users\\rique\\.nuget\\packages\\uipath.platform\\23.4.1\\uipath.platform.23.4.1.nupkg.sha512",
+    "C:\\Users\\rique\\.nuget\\packages\\uipath.python.activities\\1.6.0\\uipath.python.activities.1.6.0.nupkg.sha512",
     "C:\\Users\\rique\\.nuget\\packages\\uipath.system.activities\\23.4.2\\uipath.system.activities.23.4.2.nupkg.sha512",
     "C:\\Users\\rique\\.nuget\\packages\\uipath.system.runtime.windows\\23.4.2\\uipath.system.runtime.windows.23.4.2.nupkg.sha512",
     "C:\\Users\\rique\\.nuget\\packages\\uipath.telemetry.client\\1.5.3\\uipath.telemetry.client.1.5.3.nupkg.sha512",
