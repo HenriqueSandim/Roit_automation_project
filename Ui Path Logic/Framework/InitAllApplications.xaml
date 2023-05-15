@@ -6,7 +6,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1222,2982</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>678,3252</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Initialization_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -113,7 +113,7 @@
       <AssemblyReference>UiPath.Python</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="Open applications used in the process and do necessary initialization procedures (e.g., login)." DisplayName="Initialize All Applications" sap:VirtualizedContainerService.HintSize="688,2917" sap2010:WorkflowViewState.IdRef="Sequence_9">
+  <Sequence sap2010:Annotation.AnnotationText="Open applications used in the process and do necessary initialization procedures (e.g., login)." DisplayName="Initialize All Applications" sap:VirtualizedContainerService.HintSize="688,3187" sap2010:WorkflowViewState.IdRef="Sequence_9">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -121,7 +121,7 @@
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <ui:LogMessage DisplayName="Log message (Initialize applications)" sap:VirtualizedContainerService.HintSize="626,92" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Trace" Message="[&quot;Opening applications...&quot;]" />
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Edge: IBGE | Concla | Busca online" sap:VirtualizedContainerService.HintSize="626,52" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="496e57e8-06c2-43cb-8022-a85fada67e64" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Edge IBGE " sap:VirtualizedContainerService.HintSize="626,322" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="496e57e8-06c2-43cb-8022-a85fada67e64" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
@@ -141,12 +141,12 @@
       </uix:NApplicationCard.TargetApp>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </uix:NApplicationCard>
-    <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Excel Process Scope" sap:VirtualizedContainerService.HintSize="626,2551" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_1">
+    <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Excel IBGE" sap:VirtualizedContainerService.HintSize="626,2551" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_1">
       <ueab:ExcelProcessScopeX.Body>
         <ActivityAction x:TypeArguments="ui:IExcelProcess">
           <ActivityAction.Argument>
@@ -170,16 +170,16 @@
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <ueab:WriteCellX Cell="[IBGE_CNAE_Details.Sheet(&quot;CNAE&quot;).Cell(&quot;A1&quot;)]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="434,159" sap2010:WorkflowViewState.IdRef="WriteCellX_1" Value="[&quot;Código Secção&quot;]" />
-                    <ueab:WriteCellX Cell="[IBGE_CNAE_Details.Sheet(&quot;CNAE&quot;).Cell(&quot;B1&quot;)]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="434,159" sap2010:WorkflowViewState.IdRef="WriteCellX_2" Value="[&quot;Secção&quot;]" />
-                    <ueab:WriteCellX Cell="[IBGE_CNAE_Details.Sheet(&quot;CNAE&quot;).Cell(&quot;C1&quot;)]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="434,159" sap2010:WorkflowViewState.IdRef="WriteCellX_3" Value="[&quot;Código Divisão&quot;]" />
-                    <ueab:WriteCellX Cell="[IBGE_CNAE_Details.Sheet(&quot;CNAE&quot;).Cell(&quot;D1&quot;)]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="434,159" sap2010:WorkflowViewState.IdRef="WriteCellX_4" Value="[&quot;Divisão&quot;]" />
-                    <ueab:WriteCellX Cell="[IBGE_CNAE_Details.Sheet(&quot;CNAE&quot;).Cell(&quot;E1&quot;)]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="434,159" sap2010:WorkflowViewState.IdRef="WriteCellX_5" Value="[&quot;Código Grupo&quot;]" />
-                    <ueab:WriteCellX Cell="[IBGE_CNAE_Details.Sheet(&quot;CNAE&quot;).Cell(&quot;F1&quot;)]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="434,159" sap2010:WorkflowViewState.IdRef="WriteCellX_6" Value="[&quot;Grupo&quot;]" />
-                    <ueab:WriteCellX Cell="[IBGE_CNAE_Details.Sheet(&quot;CNAE&quot;).Cell(&quot;G1&quot;)]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="434,159" sap2010:WorkflowViewState.IdRef="WriteCellX_7" Value="[&quot;Código Classe&quot;]" />
-                    <ueab:WriteCellX Cell="[IBGE_CNAE_Details.Sheet(&quot;CNAE&quot;).Cell(&quot;H1&quot;)]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="434,159" sap2010:WorkflowViewState.IdRef="WriteCellX_8" Value="[&quot;Classe&quot;]" />
-                    <ueab:WriteCellX Cell="[IBGE_CNAE_Details.Sheet(&quot;CNAE&quot;).Cell(&quot;I1&quot;)]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="434,159" sap2010:WorkflowViewState.IdRef="WriteCellX_9" Value="[&quot;Código Subclasse&quot;]" />
-                    <ueab:WriteCellX Cell="[IBGE_CNAE_Details.Sheet(&quot;CNAE&quot;).Cell(&quot;J1&quot;)]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="434,159" sap2010:WorkflowViewState.IdRef="WriteCellX_10" Value="[&quot;Subclasse&quot;]" />
+                    <ueab:WriteCellX Cell="[IBGE_CNAE_Details.Sheet(&quot;CNAE&quot;).Cell(&quot;A1&quot;)]" DisplayName="Write Cell &quot;Código Secção&quot;" sap:VirtualizedContainerService.HintSize="434,159" sap2010:WorkflowViewState.IdRef="WriteCellX_1" Value="[&quot;Código Secção&quot;]" />
+                    <ueab:WriteCellX Cell="[IBGE_CNAE_Details.Sheet(&quot;CNAE&quot;).Cell(&quot;B1&quot;)]" DisplayName="Write Cell &quot;Secção&quot;" sap:VirtualizedContainerService.HintSize="434,159" sap2010:WorkflowViewState.IdRef="WriteCellX_2" Value="[&quot;Secção&quot;]" />
+                    <ueab:WriteCellX Cell="[IBGE_CNAE_Details.Sheet(&quot;CNAE&quot;).Cell(&quot;C1&quot;)]" DisplayName="Write Cell &quot;Código Divisão&quot;" sap:VirtualizedContainerService.HintSize="434,159" sap2010:WorkflowViewState.IdRef="WriteCellX_3" Value="[&quot;Código Divisão&quot;]" />
+                    <ueab:WriteCellX Cell="[IBGE_CNAE_Details.Sheet(&quot;CNAE&quot;).Cell(&quot;D1&quot;)]" DisplayName="Write Cell &quot;Divisão&quot;" sap:VirtualizedContainerService.HintSize="434,159" sap2010:WorkflowViewState.IdRef="WriteCellX_4" Value="[&quot;Divisão&quot;]" />
+                    <ueab:WriteCellX Cell="[IBGE_CNAE_Details.Sheet(&quot;CNAE&quot;).Cell(&quot;E1&quot;)]" DisplayName="Write Cell &quot;Código Grupo&quot;" sap:VirtualizedContainerService.HintSize="434,159" sap2010:WorkflowViewState.IdRef="WriteCellX_5" Value="[&quot;Código Grupo&quot;]" />
+                    <ueab:WriteCellX Cell="[IBGE_CNAE_Details.Sheet(&quot;CNAE&quot;).Cell(&quot;F1&quot;)]" DisplayName="Write Cell &quot;Grupo&quot;" sap:VirtualizedContainerService.HintSize="434,159" sap2010:WorkflowViewState.IdRef="WriteCellX_6" Value="[&quot;Grupo&quot;]" />
+                    <ueab:WriteCellX Cell="[IBGE_CNAE_Details.Sheet(&quot;CNAE&quot;).Cell(&quot;G1&quot;)]" DisplayName="Write Cell &quot;Código Classe&quot;" sap:VirtualizedContainerService.HintSize="434,159" sap2010:WorkflowViewState.IdRef="WriteCellX_7" Value="[&quot;Código Classe&quot;]" />
+                    <ueab:WriteCellX Cell="[IBGE_CNAE_Details.Sheet(&quot;CNAE&quot;).Cell(&quot;H1&quot;)]" DisplayName="Write Cell &quot;Classe&quot;" sap:VirtualizedContainerService.HintSize="434,159" sap2010:WorkflowViewState.IdRef="WriteCellX_8" Value="[&quot;Classe&quot;]" />
+                    <ueab:WriteCellX Cell="[IBGE_CNAE_Details.Sheet(&quot;CNAE&quot;).Cell(&quot;I1&quot;)]" DisplayName="Write Cell &quot;Código Subclasse&quot;" sap:VirtualizedContainerService.HintSize="434,159" sap2010:WorkflowViewState.IdRef="WriteCellX_9" Value="[&quot;Código Subclasse&quot;]" />
+                    <ueab:WriteCellX Cell="[IBGE_CNAE_Details.Sheet(&quot;CNAE&quot;).Cell(&quot;J1&quot;)]" DisplayName="Write Cell &quot;Subclasse&quot;" sap:VirtualizedContainerService.HintSize="434,159" sap2010:WorkflowViewState.IdRef="WriteCellX_10" Value="[&quot;Subclasse&quot;]" />
                   </Sequence>
                 </ActivityAction>
               </ueab:ExcelApplicationCard.Body>
