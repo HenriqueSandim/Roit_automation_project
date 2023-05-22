@@ -12,6 +12,7 @@
       "Path": "Main.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "TransactionDT&StateMachine_1",
         "TransactionDT&TryCatch_7",
         "TransactionItem&StateMachine_1",
         "SystemException&StateMachine_1",
@@ -48,7 +49,7 @@
       "Path": "Framework/GetTransactionData.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "dt_ExcelFile&TryCatch_2",
+        "dt_ScrappedData&TryCatch_2",
         "dr_dt_ExcelFile&Sequence_23",
         "dt_Classes&Sequence_21",
         "dt_Groups&Sequence_12",
